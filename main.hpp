@@ -66,11 +66,11 @@ int getPrevPrime(int end)
         {
             if ( i == j)
             {
-                j--;
+                j++;
             }
             if (i % j == 0)
             {
-                prime--;
+                prime++;
             }
         }
         if (prime == 0)
