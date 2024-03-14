@@ -77,7 +77,7 @@ int getPrevPrime(int end)
         {
             cout << "The previous prime number is: " << i << endl;
             prime = i;
-            i = -2;
+            i = 102;
         }
     }
     return prime;
