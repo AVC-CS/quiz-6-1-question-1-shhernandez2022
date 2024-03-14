@@ -56,11 +56,11 @@ int getNextPrime(int begin)
 
 int getPrevPrime(int end)
 {
-    for (int i = end--; i < 0; i--)
+    for (int i = end--; i < 101; i--)
     {
         prime = 0;
 
-        for (int j = 2; j < 100; j--)
+        for (int j = 2; j < 101; j--)
         {
             if ( i == j)
             {
